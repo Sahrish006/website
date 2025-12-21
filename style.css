@@ -3,6 +3,7 @@
   font-family: "Montserrat", sans-serif;
   background-color: rgb(238, 236, 236);
   margin: 0;
+  padding: 0;
 }
 /*......navbar styling......*/
 /*image */
@@ -55,12 +56,11 @@ a {
 }
 /*image*/
 .car {
-  width: 450px;
-  height: 550px;
+  width: 400px;
+  height: 525px;
   margin-right: 80px;
   margin-top: 54.83px;
   margin-bottom: 85.35px;
-
 }
 /*section 1 styling*/
 .section-1 {
@@ -89,21 +89,62 @@ a {
 /*images*/
 .section-1 > div {
   display: flex;
-  gap: 28px;
+  gap: 20px;
 }
-.download-1{
-margin-bottom: 86.23px;
-margin-left: 70px;
-margin-right: 30px;
+.download-1 {
+  margin-bottom: 86.23px;
+  margin-left: 70px;
+  margin-right: 30px;
 }
-.download-2{
-margin-bottom: 86px;
-margin-left: 30px;
-margin-right: 110px;
-width: 50%;
-
+.download-2 {
+  margin-bottom: 86px;
+  margin-left: 30px;
+  margin-right: 110px;
+  width: 50%;
 }
 /*section 2 styling*/
 .section-2 {
   display: flex;
+}
+/*green section styling*/
+.green-section {
+  background-color: #75bf7a;
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+  height: 166px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+.green-section p {
+  font-size: 24.6px;
+  font-weight: 600;
+  color: #ffffff; 
+  background-color: #75bf7a
+}
+.green-section input {
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 4.39px;
+  border: none;
+  width: 400px;
+  
+}
+.green-section input:focus {
+  outline-color: #75bf7a;
+}
+.green-section div {
+  display: flex;
+  gap: 52px;
+  border: 2px solid red;
+}
+.green-section button {
+font-weight: 800;
+font-size: 22px;
+border-radius: 4.39px;
+width: 260px;
+background-color: black;
+color: #ffffff;
 }
