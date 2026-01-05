@@ -268,12 +268,12 @@ text-align: right;
     align-items: center;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    align-self: flex-end;
 }
 .right-benefit {
     display: flex;
-    align-self: flex-end;
+    align-self: flex-start;
     flex-direction: row-reverse;
-    flex: 1;
 }
 
 .benefit span {
